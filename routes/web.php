@@ -3,17 +3,18 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Index');
 });
 
 Route::get('/about', function () {
     return view('About');
 });
 
-Route::get('/home', function () {
-    return view('Home');
+Route::get('/mahasiswa', function () {
+    return view('Mahasiswa');
 });
 
 Route::get('/profile', function () {
-    return view('Profile');
+    $nama = 'Hafizh';
+    return view('Profile' ,compact('nama'));
 });

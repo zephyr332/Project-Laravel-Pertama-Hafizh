@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Profile</title>
+    <title>Halaman Home</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -32,7 +32,7 @@
         }
         
         h1 {
-            color: #2c3e50;
+            color: #4a5568;
             font-size: 2.5rem;
             margin-bottom: 30px;
             font-weight: 700;
@@ -52,24 +52,24 @@
         .nav-link {
             display: block;
             padding: 15px 25px;
-            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             text-decoration: none;
             border-radius: 10px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
         }
         
         .nav-link:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
-            background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
         }
         
         .nav-link:active {
             transform: translateY(0);
-            box-shadow: 0 2px 10px rgba(52, 152, 219, 0.3);
+            box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
         }
         
         @media (max-width: 480px) {
@@ -91,14 +91,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>Halaman Profile</h1>
-        <p>Nama Saya Adalah {{$nama;}}</p>
+        <h1>Halaman Mahasiswa</h1>
         <ul class="nav-list">
             <li class="nav-item">
-                <a href="/mahasiswa" class="nav-link">Halaman Mahasiswa</a>
+                <a href="/about" class="nav-link">Halaman About</a>
             </li>
             <li class="nav-item">
-                <a href="/" class="nav-link">Halaman Index</a>
+                <a href="/profile" class="nav-link">Halaman Profile</a>
             </li>
         </ul>
     </div>

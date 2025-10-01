@@ -94,7 +94,7 @@
         <h1>Halaman About</h1>
         <ul class="nav-list">
             <li class="nav-item">
-                <a href="/home" class="nav-link">Halaman Home</a>
+                <a href="/mahasiswa" class="nav-link">Halaman Mahasiswa</a>
             </li>
             <li class="nav-item">
                 <a href="/profile" class="nav-link">Halaman Profile</a>
